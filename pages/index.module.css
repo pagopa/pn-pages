@@ -1,0 +1,11 @@
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.flexIframe {
+  flex-grow: 1;
+  width: 100%;
+  border: none;
+}

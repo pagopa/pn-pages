@@ -1,5 +1,7 @@
-import Navbar from "@/app/components/Navbar";
+import React from "react";
 import Head from "next/head";
+import Navbar from "@/app/components/Navbar";
+import styles from "./index.module.css";
 
 export default function Home() {
   return (
@@ -7,11 +9,10 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-
-      <Navbar></Navbar>
-
-      <iframe src="/iframe" width="100%" height="1440px" />
-      
+      <Navbar />
+      <div className={styles.flexContainer}>
+        <iframe id="idIframe" src="/iframe" className={styles.flexIframe} />
+      </div>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function Iframe() {
       <Head>
         <title>Iframe</title>
       </Head>
-
+      <Dashboard></Dashboard>
       <Dashboard></Dashboard>
     </>
   );
